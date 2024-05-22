@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let alphabet = "ABCDEFGHIJKLMNOPQRSTUVEXYZ";
+
+      let x = Math.trunc(Math.random() * 26) + 1; //1-26
+      console.log(x + 1);
+      console.log(alphabet[x]);
+      let check = Number(prompt("Enter number"));
+
+      if (check === x + 1) console.log("correct");
+      else console.log("incorrect");
+    </script>
+  </body>
+</html>

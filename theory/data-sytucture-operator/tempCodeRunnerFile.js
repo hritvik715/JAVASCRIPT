@@ -1,0 +1,1 @@
+console.log(new Set(['waiter', 'chef', 'waiter', 'mainager', 'chef', 'waiter']).size);
