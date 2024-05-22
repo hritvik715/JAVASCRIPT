@@ -38,8 +38,8 @@ const restaurant =
 
 
 restaurant.numGuests = 0;
-// const guests = restaurant.numGuests || 10;
-// console.log(guests);
+const guests = restaurant.numGuests || 10;
+console.log(guests);
 
 
 // nullish operator zero vaale case ko shi kar dega jo OR operator mey dikkat de rhi thi

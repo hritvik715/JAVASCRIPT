@@ -89,7 +89,7 @@ const game = {
 const rest = new Map();
 rest.set('name', 'classico , Italiano');
 rest.set(1, 'Firenze , Italy');
-// console.log(rest.set(2, 'Lisbon , Portugal'));
+console.log(rest.set(2, 'Lisbon , Portugal'));
 
 rest
     .set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
@@ -98,7 +98,7 @@ rest
     .set(true, 'we are open')
     .set(false, 'we are closed')
 
-// console.log(rest);
+console.log(rest);
 // console.log(`-------------------------------------------`);
 // console.log(rest.get('name'));
 // console.log(rest.get(true));
@@ -108,15 +108,15 @@ rest
 
 
 const time = 21;
-console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
+console.log(rest.get(time > rest.get('open') && time < rest.get('close')));//T1 && T2 =T2
 // console.log(`------------------------------------------------`);
 
-// console.log(rest.has('categories'));
-// rest.delete(2);
-// console.log(rest);
-// console.log(rest.size);
-// // rest.clear();
-// // console.log(rest);
+console.log(rest.has('categories'));
+rest.delete(2);
+console.log(rest);
+console.log(rest.size);
+rest.clear();
+console.log(rest);
 
 
 
@@ -126,19 +126,27 @@ console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
 
 
 
-// rest.set([1, 2], 'Test');
+rest.set([1, 2], 'Test');
 // console.log(rest);
 
-// console.log(rest.get([1, 2]));//why it is not working ? bcz they are not the same object in heap (upper vaaala array line 129 and niche vaala line 132 )
+console.log(rest.get([1, 2]));//why it is not working ? bcz they are not the same object in heap (upper vaaala array line 129 and niche vaala line 132 )
 
 // // to work without error we have to store array in a variable
-// const arr = [3, 4];//from this method , both the array refer to the same place in the memory
-// rest.set(arr, 'Test');
-// console.log(rest.get(arr));
+const arr = [3, 4];//from this method , both the array refer to the same place in the memory
+rest.set(arr, 'Test');
+console.log(rest.get(arr));
 
 // console.log(`------------------------------------`);
 
 
 // rest.set(document.querySelector('h1'), 'Heading');
-// console.log(rest);
+console.log(rest);
+
+
+
+
+
+
+
+
 

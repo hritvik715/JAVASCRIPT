@@ -1,7 +1,5 @@
 `use strict`
-
 const weekDays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
-
 const openingHours = {
     [weekDays[3]]: {
         open: 12,
@@ -16,12 +14,6 @@ const openingHours = {
         close: 24,
     },
 };
-
-
-
-
-
-
 
 const question = new Map([
     ['question', 'what is the best programming language in the world'],
@@ -38,8 +30,8 @@ const question = new Map([
 
 
 //CONVERT OBJECT TO MAP
-console.log((Object.entries(openingHours)));
-// const hoursMap = new Map(Object.entries(openingHours));
+// console.log((Object.entries(openingHours)));
+const hoursMap = new Map(Object.entries(openingHours));
 // console.log(hoursMap);
 
 
@@ -61,8 +53,8 @@ console.log((Object.entries(openingHours)));
 
 
 
-//  CONVERT MAP TO ARRAY
+//imp->  CONVERT MAP TO ARRAY
 // console.log([...question]);//it will give array of array
-// console.log(question.entries());
-// console.log([...question.keys()]);
-// console.log([...question.values()]);
+console.log(question.entries());
+console.log([...question.keys()]);
+console.log([...question.values()]);
