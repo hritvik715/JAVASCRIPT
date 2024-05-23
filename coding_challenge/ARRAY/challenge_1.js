@@ -2,7 +2,7 @@
 
 const chekDogs = function (arr1, arr2) {
 
-    // it's a bad practice to mutate function  parameters so creating a shallow copy
+    //it's a bad practice to mutate function  parameters so creating a shallow copy
 
     const arr1Corrected = arr1.slice();
     arr1Corrected.splice(0, 1);

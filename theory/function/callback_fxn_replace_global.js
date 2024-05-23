@@ -1,9 +1,9 @@
 const oneWord = function (str) {
-    return str.replace(/ /g, '').toLowerCase();
+    return str.replace(/ /g, '').toLowerCase();//imp->
     // return str.replace('+', '').toLowerCase();
 }
 
-console.log(oneWord('hritvik mohan'));
+// console.log(oneWord('hritvik mohan'));
 
 const upperFirstWord = function (str) {
     const [first, ...others] = str.split(' ');//split will return an array
@@ -16,7 +16,7 @@ const upperFirstWord = function (str) {
 
 
 
-
+//imp->
 const transformer = function (str, fn) {
     console.log(`Original string : ${str}`);
     console.log(`Transformed string : ${fn(str)}`);
@@ -26,7 +26,8 @@ const transformer = function (str, fn) {
 
 }
 
-// transformer(`Javascript is the best!`, upperFirstWord);
+// transformer(`Javascript is the best!`, upperFirstWord);//ek function kay andar dusra function daal rakha hai
+
 // transformer(`Javascript is the best!`, oneWord);
 
 
@@ -41,5 +42,9 @@ const high5 = function () {
 
 
 
+const arr = ['kuku', 'duku', 'tiku'];
+arr.forEach(function (value, key) {
+    console.log(`${key}: ${value}`);
+});
 
-// ['kuku', 'duku', 'tiku'].forEach(high5);
+

@@ -25,7 +25,7 @@ const eurowings = {
     bookings: [],
 }
 
-lufthansa.book(23, 'Hritvik mohan');//it will work fine
+// lufthansa.book(23, 'Hritvik mohan');//it will work fine
 
 
 const book = lufthansa.book;
@@ -34,7 +34,7 @@ const book = lufthansa.book;
 // book(23, ' Hritvik mohan');//does not work
 
 
-//THREE METHOD FOR FUNCTIONS -> CALL , APPLY , BIND
+//imp->THREE METHOD FOR FUNCTIONS -> CALL , APPLY , BIND
 
 //CALL METHOD
 // book.call(eurowings, 23, 'hritvik mohan');// a functions is just an object and object has methods therefore a function can have methods too

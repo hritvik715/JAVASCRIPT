@@ -25,7 +25,7 @@
 
 let a = 5;
 let b = 7;
-let k = a + b;
-a = k - a;
-b = k - b;
+a = a + b;
+b = a - b;
+a = a - b;
 console.log(a, b);

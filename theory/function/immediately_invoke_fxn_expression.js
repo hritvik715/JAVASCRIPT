@@ -9,10 +9,10 @@ runOnce();
 
 
 //IIFE
-// (function () {
-//     console.log(`This will never run again`);
-//     const isPrivaet = 23;
-// })();
+(function () {
+    console.log(`This will never run again`);
+    const isPrivaet = 23;
+})();
 
 
 
