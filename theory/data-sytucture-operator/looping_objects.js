@@ -1,7 +1,5 @@
 `use strict`
-
 const weekDays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
-
 const openingHours = {
     [weekDays[3]]: {
         open: 12,
@@ -53,28 +51,35 @@ const restaurant =
 
 
 // //PROPERTY NAMES
-// const properties = Object.keys(openingHours);//capital o must be there
-// // console.log(typeof properties);
+const properties = Object.keys(openingHours);//capital o must be there
+// console.log(typeof properties);
 // console.log(properties);
-// let openStr = `we are open on ${properties.length} days `;
+let openStr = `we are open on ${properties.length} days `;
 
 // for (const day of properties) {
-//     // console.log(day);
+//     console.log(day);
 //     openStr += `${day},`;
 // }
 // console.log(openStr);
 
 // console.log(`-----------------------------------------------------`);
 // //PROPERTY VALUES
-// const values = Object.values(openingHours);
+const values = Object.values(openingHours);
 // console.log(values);
+
+
+
+// const arr = [[8], [3], [5], 6, 2];
+// for (const x of arr) {
+//     console.log(x);
+// }
 
 
 // console.log(`----------------------------------------------------`);
 
 
 // //ENTRIES OBJECT
-// const entries = Object.entries(openingHours);
+const entries = Object.entries(openingHours);
 
 // console.log(entries);
 
@@ -100,14 +105,14 @@ const restaurant =
 // //for understanding
 
 
-// // let x = {
-// //     a: 1,
-// //     b: 2,
-// //     c: 3,
-// // }
-// // console.log(Object.entries(x));
+// let x = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+// }
+// console.log(Object.entries(x));
 
-// // const p = [5, 6, 8, 9, 1];
-// // for (let item of p.entries()) {
-// //     console.log(item);
-// // }
+// const p = [5, 6, 8, 9, 1];
+// for (let item of p.entries()) {
+//     console.log(item);
+// }

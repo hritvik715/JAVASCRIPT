@@ -1,1 +1,4 @@
-console.log(new Set(['waiter', 'chef', 'waiter', 'mainager', 'chef', 'waiter']).size);
+numGuests = rest1.numGuests || 10;
+rest2.numGuests = rest2.numGuests || 10;
+rest1.numGuests ||= 10;
+rest2.numGuests ||= 10;
