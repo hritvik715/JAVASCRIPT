@@ -7,12 +7,12 @@ for (const [i, movement] of movements.entries()) {//in for of loop first value i
         console.log(`Movement ${i + 1}: You deposited ${movement}`)
     }
     else {
-        console.log(`Movement ${i + 1}: You withdraw ${Math.abs(movement)}`);//math.abs will take the absolute value i.e. it remove the sign
+        console.log(`Movement ${i + 1}: You withdraw ${Math.abs(movement)}`);//imp->math.abs will take the absolute value i.e. it remove the sign
     }
 }
 
 
-//diffrencee in these two loops is we can not use continue and break statement in for each loop
+//diffrencee in these two loops is we can not use continue and break statement in (for each) loop
 
 
 console.log(`--------------------`);

@@ -36,7 +36,7 @@ console.log(`-----------------------------------`);
 
 //set
 const currenciesUnique = new Set(['USD', 'GDP', "USD", 'EUR', "EUR"]);
-currenciesUnique.forEach(function (value, _, map) {//in js _(underscore) means a throw away variable
+currenciesUnique.forEach(function (value, _, map) {//imp->in js _(underscore) means a throw away variable
     console.log(`${value}: ${value}`);//a set does not have key and  pair i.e. isme index nhi hota
 
 })

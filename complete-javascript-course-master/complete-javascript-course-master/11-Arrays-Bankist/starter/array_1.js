@@ -13,7 +13,8 @@ let arr = ['a', 'b', 'c', 'd', 'e'];
 // console.log(arr.slice());
 // console.log([...arr]);
 
-console.log(arr.splice(2, 3));//dusre index se teen element hta do
+// console.log(arr.splice(2, 3));//dusre index se teen element hta do
+// console.log(arr);
 //SPLICE METHOD
 // console.log(arr.splice(2));
 // arr.slice(-1);
@@ -21,7 +22,7 @@ console.log(arr.splice(2, 3));//dusre index se teen element hta do
 // console.log(arr.splice(2, 2));
 // console.log(arr);
 
-//pro coder -> for project
+
 
 //reverse
 arr = ['a', 'b', 'c', 'd', 'e'];
@@ -40,10 +41,10 @@ const letters = arr.concat(arr2);
 
 
 let x = [2, 5, 6, 7, 3];
-x.splice(0, 2);
+// x.splice(0, 2);
 // console.log(x);
 
 // console.log(x.sort((a, b) => a - b));
-// console.log(x.sort((a, b) => b - a));
+console.log(x.sort((a, b) => b - a));
 
 

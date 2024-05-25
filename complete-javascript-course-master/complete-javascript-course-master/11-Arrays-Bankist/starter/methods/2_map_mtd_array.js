@@ -25,7 +25,7 @@ const movementsUSD = movements.map(function (mov, i, arr) {//map method will ret
 
 
 
-console.log(movements);
+// console.log(movements);
 console.log(movementsUSD);
 
 

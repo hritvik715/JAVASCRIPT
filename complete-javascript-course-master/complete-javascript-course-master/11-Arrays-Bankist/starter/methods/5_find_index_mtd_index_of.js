@@ -7,7 +7,7 @@
 let arr = [2, 5, 6, 34, 7];
 
 const y = arr.findIndex(x => x === 6);
-console.log(y);
+// console.log(y);
 
 
 
@@ -17,7 +17,7 @@ console.log(y);
 //E.G -B
 
 let brr = [3, 5, 6, 7, 8];
-console.log(brr.findIndex(x => x > 6));
+// console.log(brr.findIndex(x => x > 6));
 
 
 

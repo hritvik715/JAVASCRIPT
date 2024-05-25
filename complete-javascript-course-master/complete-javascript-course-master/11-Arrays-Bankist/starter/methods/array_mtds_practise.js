@@ -45,7 +45,7 @@ const bankDepositSum = accounts
     .filter(mov => mov > 0)
     .reduce((sum, cur) => sum + cur, 0);
 
-console.log(bankDepositSum);
+// console.log(bankDepositSum);
 
 
 //2.
@@ -65,18 +65,18 @@ const numDeposits1000 = accounts
 
 
 
-console.log(accounts.flatMap(acc => acc.movements).filter(mov => mov >= 1000));
-console.log(numDeposits1000);
+// console.log(accounts.flatMap(acc => acc.movements).filter(mov => mov >= 1000));
+// console.log(numDeposits1000);
 
 
 
 //Prefixed ++ operator
 let a = 10;
-console.log(a++);
-console.log(a);
+// console.log(a++);
+// console.log(a);
 
 let b = 5;
-console.log(++b);
+// console.log(++b);
 
 
 
@@ -101,7 +101,7 @@ const { deposits, withdrawals } = accounts
         return sums;
     }, { deposits: 0, withdrawals: 0 })
 
-console.log(deposits, withdrawals);
+// console.log(deposits, withdrawals);
 
 
 
